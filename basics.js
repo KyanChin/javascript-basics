@@ -89,3 +89,25 @@ console.log(schools);
 for (let i = 0; i < schools.length; i++) {
     console.log(schools[i]);
 }
+
+
+
+let person = {
+    firstname: 'Maadhesh',
+    lastname: 'Vetrimani',
+    age: 17,
+    isstudent: true
+};
+
+person['age'] = 18
+person['isstudent'] = false;
+console.log(person.age);
+console.log(person['firstname'], person['lastname']);
+
+function cube(x) {
+    return x ** 3;
+}
+
+let magnitude = (x, y, z) => Math.sqrt(x ** 2 + y ** 2 + z ** 2)
+
+console.log(magnitude(3, 4, 5))
