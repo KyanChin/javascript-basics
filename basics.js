@@ -38,3 +38,54 @@ console.log(language.includes('Java'));
 
 console.log(`But I also like ${language.toLowerCase()}!`)
 
+
+
+
+
+let age = parseInt(prompt('Please enter your age: '));
+
+if (age <= 12) {
+    console.log('Hello kid.');
+}
+else if (age <= 18) {
+    console.log('Hello teen.');
+}
+else {
+    console.log('Hello adult.');
+}
+
+let fruits = ['apple', 'mango', 'pineapple', 'banana', 'coconut'];
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
+for (let fruit of fruits) {
+    console.log(fruit);
+}
+
+let counter = 10;
+while (counter > 0) {
+    console.log(counter);
+    counter--;
+}
+console.log('Happy new year!');
+
+let numbers = [123, 456, 789];
+let schools = ['RI', 'ASR', 'EJC', 'ACJC'];
+let mixed = [1.23, 'Happy', [4, 5, 6]];
+
+console.log(numbers[0]);
+console.log(schools.length);
+
+schools.push('TMJC');
+schools.push('HCI');
+
+console.log(schools)
+
+schools.pop();
+console.log(schools);
+
+for (let i = 0; i < schools.length; i++) {
+    console.log(schools[i]);
+}
